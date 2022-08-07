@@ -68,7 +68,8 @@ Filtering for only reviews with 20 or more votes dropped the dataset down to 65K
 
 Next the dataset was filtered for helpful votes at least 50% which brought the total dataset to 40,565.
 
-![50 helpful](https://user-images.githubusercontent.com/87085239/183271742-f452f657-28a3-40dc-aa4a-aa7a46a3503e.png)
+![50 helpful](https://user-images.githubusercontent.com/87085239/183271817-70e3ee77-78c7-46c0-b171-a929eb93adc1.png)
+
 
 
 ## Results
