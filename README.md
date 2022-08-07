@@ -22,21 +22,37 @@ Amazon_Reviews_ETL.ipynb Code
 
 customer_table:
 
+![customer_colab](https://user-images.githubusercontent.com/87085239/183271630-cbf5a034-df44-4971-9bec-c8e4ab44071a.png)
+
 products_table:
+
+![product_colab](https://user-images.githubusercontent.com/87085239/183271643-c51b5c1b-8cf3-4a16-8b9d-1fb654ea59c9.png)
 
 review_id_table:
 
+![review_colab](https://user-images.githubusercontent.com/87085239/183271651-7baf7de6-af0d-4425-a3d4-b3659fd7a688.png)
+
 vine_table:
+
+![vine_colab](https://user-images.githubusercontent.com/87085239/183271668-174baf63-863e-46ea-850f-5a431fb0e461.png)
 
 Each dataframe was loaded to PostgreSQL and the RDS. Due to the size of each dataframe, it took some time to load. To verify the data loaded correctly, I ran a sql statement on each table.
 
 customer_table:
 
+![customer_sql](https://user-images.githubusercontent.com/87085239/183271677-d17b8f21-ad15-4ae5-afed-a9965fa1c7fb.png)
+
 products_table:
+
+![product_sql](https://user-images.githubusercontent.com/87085239/183271682-0d4533b8-dd1f-41dd-9006-8f5daa86ad20.png)
 
 review_id_table:
 
+![review_sql](https://user-images.githubusercontent.com/87085239/183271688-ed5d5848-0157-4bbe-9385-ea4077596bdb.png)
+
 vine_table:
+
+![vine_sql](https://user-images.githubusercontent.com/87085239/183271704-5617c3e3-4bc3-4d9a-971c-7f30263e32c7.png)
 
 ### Deliverable 2: Determine Bias of Vine Reviews
 
@@ -48,8 +64,12 @@ After dropping the nulls the dataset was around 1.7 million reviews.
 
 Filtering for only reviews with 20 or more votes dropped the dataset down to 65K. 
 
+![twenty or more votes](https://user-images.githubusercontent.com/87085239/183271734-891c9347-4251-40aa-9425-43b1d55e91ea.png)
 
 Next the dataset was filtered for helpful votes at least 50% which brought the total dataset to 40,565.
+
+![50 helpful](https://user-images.githubusercontent.com/87085239/183271742-f452f657-28a3-40dc-aa4a-aa7a46a3503e.png)
+
 
 ## Results
 
