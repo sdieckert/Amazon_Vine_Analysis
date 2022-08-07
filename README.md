@@ -18,8 +18,6 @@ Selecting Amazon Video Game reviews from a given dataset, the projec will utiliz
 
 Extract the Video Game Review dataset from an AWS S3 using PySpark in order to tranform the data into datasets that matched the schema of the PostgreSQL tables. The dataset was broken into 4 smaller dataframes:
 
-Amazon_Reviews_ETL.ipynb Code
-
 customer_table:
 
 ![customer_colab](https://user-images.githubusercontent.com/87085239/183271630-cbf5a034-df44-4971-9bec-c8e4ab44071a.png)
@@ -57,8 +55,6 @@ vine_table:
 ### Deliverable 2: Determine Bias of Vine Reviews
 
 Using PySpark, analysis the vine_table dataset to determine if there is any bias towards reviews that were written as part of the Vine program. 
-
-Vine_Review_Analysis Code
 
 After dropping the nulls the dataset was around 1.7 million reviews. 
 
